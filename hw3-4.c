@@ -133,4 +133,8 @@ int main(){
         printf("\n程式結束...");
         system("pause");
 
+
+
+
 }
+
