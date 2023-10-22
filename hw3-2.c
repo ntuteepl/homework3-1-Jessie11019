@@ -42,4 +42,3 @@ int car_number = 0;
 
     return 0;
 }
-
