@@ -9,10 +9,10 @@ int main(){
     /*亂數*/
     int len= 0,c1 = 0,c2 = 0,c3 = 0,c4 = 0;
     /*檢查輸入的數字*/
-	int i1 = 0,i2 = 0,i3 = 0,a = 0,b = 0;
-	/*數字位置跟值*/
-	int replay = 1,c5 = 0,replay_1 = 0;
-	/*replay沒猜中繼續玩、repaly_1玩完了繼續嗎*/
+  int i1 = 0,i2 = 0,i3 = 0,a = 0,b = 0;
+  /*數字位置跟值*/
+  int replay = 1,c5 = 0,replay_1 = 0;
+  /*replay沒猜中繼續玩、repaly_1玩完了繼續嗎*/
 
 
     /*數字產生*/
@@ -44,7 +44,7 @@ int main(){
         {
             c1=0,c5=0;
             printf("請輸入4位數字:");
-            gets(input);
+            scanf("%4s",input);
             len=strlen(input);
 
             if(len>4||len<4)
@@ -137,4 +137,3 @@ int main(){
 
 
 }
-
